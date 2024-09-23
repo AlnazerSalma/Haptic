@@ -883,7 +883,7 @@ input[type="submit"]:hover {
   }
 
   .form-box {
-    padding: 1rem;
+    padding: 2rem;
     max-width: 100%;
   }
 
@@ -895,4 +895,5 @@ input[type="submit"]:hover {
   textarea {
     font-size: 1rem;
   }
+  
 }
