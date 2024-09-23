@@ -46,14 +46,7 @@ const Contact = () => {
 
   return (
     <Container fluid className="contact-section">
-      <h1
-        style={{
-          textAlign: "left",
-          fontSize: "3.4rem",
-          padding: "0.5rem 0rem 0rem 7rem",
-          color: "#0093AF",
-          fontWeight: "bold",
-        }}
+      <h1 className="contact-title"
       >
         Contact Me
       </h1>

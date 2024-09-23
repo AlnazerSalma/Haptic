@@ -13,7 +13,7 @@ const Toolstack = () => {
     <div className="gallery">
       {icons.map((item, index) => (
         <div key={index} className="avatar" title={item.title}>
-          <div className="icon">{item.icon}</div>
+          <div className="icon" >{item.icon}</div>
         </div>
       ))}
     </div>

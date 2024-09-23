@@ -307,7 +307,8 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 .home-section {
@@ -356,9 +357,6 @@ button:focus {
   padding-bottom: 2em !important;
 }
 
-.home-header {
-  margin-bottom: 50px;
-}
 
 .home-about-section {
   position: relative;
@@ -465,7 +463,13 @@ button:focus {
     font-size: 2em !important;
     font-weight: bold !important;
   }
-
+  .home-content {
+    padding: 6rem 0 2rem !important;
+  }
+  .home-header {
+    margin-bottom: 50px;
+    font-size: 1rem;
+  }
 }
 
 /* --------- */
@@ -725,7 +729,7 @@ button:focus {
   }
 
   .resume .resume-item ul {
-    padding-left: 10px;
+    padding-left: 20px;
   }
   .fork-btn {
     font-size: 1em !important;
@@ -781,7 +785,7 @@ button:focus {
 }
 
 .form-box {
-  background-color: #0a0416;
+  background-color: #0a0416a9;
   padding: 2rem;
   margin: 1rem auto;
   border-radius: 10px;
@@ -860,7 +864,7 @@ input[type="submit"]:hover {
 @media (max-width: 767px) {
   .contact-title {
     padding: 0.5rem 1rem;
-    font-size: 2rem;
+    font-size: 2.9rem;
   }
 
   .contact-info-wrapper {
@@ -885,6 +889,7 @@ input[type="submit"]:hover {
   .form-box {
     padding: 2rem;
     max-width: 100%;
+    margin: 1rem 0.5rem;
   }
 
   label {
