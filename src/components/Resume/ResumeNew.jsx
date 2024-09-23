@@ -24,7 +24,7 @@ function ResumeNew() {
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 767 ? 1.3 : 0.6} />
+            <Page pageNumber={1} scale={width > 767 ? 1.3 : 0.8} />
           </Document>
         </Row>
 

@@ -22,11 +22,11 @@ function Projects() {
               imgPath={drago}
               isBlog={false}
               title="drago"
-              description="Drago is a diabetes management and supporting system designed using Figma, featuring a
-                            Flutter-based mobile app for patients to track blood sugar, receive medication reminders,
-                            and manage their condition. The React JS web app allows doctors to monitor patient progress 
-                            and handle follow-ups.Firebase ensures secure data storage and real-time 
-                            synchronization between patients and healthcare providers."
+              description="Drago is a comprehensive diabetes management system with two platforms: a mobile app
+               for patients and a web app for doctors. The mobile app helps patients track blood sugar,
+                insulin units, and set medication reminders. The web app allows doctors to monitor
+                 and support patient progress. Designed using Figma for UI/UX, it is built with Flutter
+                for the mobile app, ReactJS for the web app, and Firebase for secure data storage and real-time sync."
               demoLink="https://youtube.com/watch?v=j7SWYQQTD-s&si=POOxJU-bTdiqGnWc"
             />
           </Col>

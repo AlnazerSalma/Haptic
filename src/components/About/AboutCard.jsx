@@ -13,11 +13,12 @@ function AboutCard() {
             <br />
             <br></br>
             I am a software engineering graduate from Bethlehem University, 
-            trained in game development with Unity and C#.
+            with training in game development using Unity and C#.
              I have a strong interest in UI/UX design and a passion 
              for building mobile applications with Flutter.
             <br />
-            I’m also skilled in JavaScript and React, allowing me to create engaging user experiences.
+            <br></br>
+            Additionally, I'm skilled in modern JavaScript libraries and frameworks, such as React.js, for developing web applications.
             <br />
             <br />
           </p>

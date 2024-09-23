@@ -8,7 +8,7 @@ import { Link, useLocation } from "react-router-dom";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const location = useLocation(); // Use useLocation to track the current path
+  const location = useLocation();
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -20,7 +20,7 @@ function NavBar() {
 
   useEffect(() => {
     window.addEventListener("scroll", scrollHandler);
-    return () => window.removeEventListener("scroll", scrollHandler); // Cleanup listener
+    return () => window.removeEventListener("scroll", scrollHandler);
   }, []);
 
   return (

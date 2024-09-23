@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -23,7 +22,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, JavaScript, and C#. </b>
+                <b className="purple"> Java & JavaScript </b>
               </i>
               <br />
               <br />
@@ -72,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="www.linkedin.com/in/salma-alnazer"
+                  href="https://www.linkedin.com/in/salma-alnazer/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
