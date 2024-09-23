@@ -27,7 +27,7 @@ function Home() {
                 <Type />
               </div>
             </Col>
-              <Col md={5} style={{ paddingBottom: 20 , paddingLeft:"100px" }}>
+              <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -37,8 +37,8 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <Home2 />
       </Container>
-      <Home2 />
     </section>
   );
 }

@@ -31,7 +31,6 @@ function ResumeNew() {
           <Button
             variant="primary"
             href={pdf}
-            // download="salma’s_cv.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >

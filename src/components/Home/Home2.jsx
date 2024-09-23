@@ -10,15 +10,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+          <Col md={8} className="home-about-description" style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+            <h1 className="home-about-title">
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I fell in love with programming 💻 and have gained valuable skills along the way.
+              I fell in love with programming 💻 and have gained valuable skills along the way.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -46,7 +45,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar d-none d-md-block"> {/* Hide on small screens */}
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
@@ -64,7 +63,7 @@ function Home2() {
                   href="https://github.com/AlnazerSalma"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -74,7 +73,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/salma-alnazer/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -93,7 +92,7 @@ function Home2() {
           </Col>
         </Row>
       </Container>
-    </Container>
   );
 }
+
 export default Home2;
