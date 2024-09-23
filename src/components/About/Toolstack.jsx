@@ -3,7 +3,7 @@ import "./Gallery.css";
 import { SiVisualstudiocode, SiAndroidstudio, SiXampp } from "react-icons/si";
 
 const icons = [
-  { icon: <SiVisualstudiocode />, title: "Visual studio code" },
+  { icon: <SiVisualstudiocode />, title: "VS code" },
   { icon: <SiAndroidstudio />, title: "Android studio" },
   { icon: <SiXampp />, title: "Xampp" },
 ];
