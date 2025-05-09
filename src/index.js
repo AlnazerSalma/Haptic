@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import StarterPage from "./components/StarterPage/StarterPage";
+import StarterPage from "./Pages/StarterPage";
 import reportWebVitals from "./reportWebVitals";
 
 const Root = () => {

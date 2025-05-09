@@ -1,21 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
+import Type from "../components/Home/Type";
+import Home2 from "../components/Home/Home2";
 
-import "./Intro.css";
+import Vector1 from "../Assets/home/Vector1.png";
+import Vector2 from "../Assets/home/Vector2.png";
+import boy from "../Assets/home/boy.png";
 
-import Type from "./Type";
-import Home2 from "./Home2";
+import hiring from "../Assets/home/hiring.png";
+import FloatinDiv from "../components/Home/FloatingDiv/FloatingDiv";
 
-// Images and components from Intro
-import Vector1 from "../../Assets/home/Vector1.png";
-import Vector2 from "../../Assets/home/Vector2.png";
-import boy from "../../Assets/home/boy.png";
-
-import hiring from "../../Assets/home/hiring.png";
-import FloatinDiv from "./FloatingDiv/FloatingDiv";
-
-function Home() {
-  const transition = { duration: 2, type: "spring" };
-
+function HomePage() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -78,4 +72,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;

@@ -2,11 +2,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Home from "../components/Home/Home";
-import Work from "../components/Work/Work";
-import Pricing from "../components/Pricing/Pricing";
-import Careers from "../components/Careers/Careers";
-import Contact from "../components/Contact/Contact";
+import Home from "../Pages/HomePage";
+import Work from "../Pages/WorkPage";
+import Pricing from "../Pages/PricingPage";
+import Careers from "../Pages/CareerPage";
+import Contact from "../Pages/ContactPage";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/Footer";
 

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Roles from "./Roles";
-import RightSlidePanel from "../RightSliderPanel/RightSlidePanel";
-import careerData from "../../data/Careers//careerData"; // Adjust the path as needed
+import Roles from "../components/Careers/Roles";
+import RightSlidePanel from "../components/RightSliderPanel/RightSlidePanel";
+import careerData from "../data/Careers/careerData"; // Adjust the path as needed
 
-function Careers() {
+function CareerPage() {
   const [isPanelOpen, setIsPanelOpen] = useState(false);
   const [selectedRole, setSelectedRole] = useState(null);
 
@@ -46,11 +46,11 @@ function Careers() {
         <RightSlidePanel
           isOpen={isPanelOpen}
           onClose={handleClosePanel}
-          role={selectedRole} // full data
+          role={selectedRole}
         />
       )}
     </Container>
   );
 }
 
-export default Careers;
+export default CareerPage;

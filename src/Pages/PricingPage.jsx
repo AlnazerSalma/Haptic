@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./PricingCards";
-import pricingPlans from "../../data/Pricing/PricingData"; // Adjust path if needed
+import ProjectCard from "../components/Pricing/PricingCards";
+import pricingPlans from "../data/Pricing/PricingData"; // Adjust path if needed
 
-function Pricing() {
+function PricePage() {
   return (
     <Container fluid className="project-section">
       <Container>
@@ -21,4 +21,4 @@ function Pricing() {
   );
 }
 
-export default Pricing;
+export default PricePage;

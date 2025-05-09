@@ -1,5 +1,5 @@
 import React from 'react';
-import './Gallery.css';
+import './Techstack.css';
 import {
   DiJavascript1,
   DiReact,

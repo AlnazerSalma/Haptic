@@ -1,6 +1,6 @@
 import React from "react";
-import AnimatedSlider from '../AnimatedSlider/StarterPageSlider';
-import sliderItems from '../../data/Starter/SliderData';
+import AnimatedSlider from '../components/AnimatedSlider/StarterPageSlider';
+import sliderItems from '../data/Starter/SliderData';
 
 function StarterPage({ onStart }) {
   return (

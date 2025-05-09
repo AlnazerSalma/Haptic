@@ -8,7 +8,7 @@ import {
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Contact = () => {
+const ContactPage = () => {
   const form = useRef();
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -35,7 +35,6 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("Message sent");
-          // Refresh the page
           window.location.reload();
         },
         (error) => {
@@ -113,4 +112,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactPage;

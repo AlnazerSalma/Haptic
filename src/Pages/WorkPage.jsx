@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Techstack from "./Techstack";
-import Workcard from "./WorkCard";
+import Techstack from "../components/Work/Techstack";
+import Workcard from "../components/Work/WorkCard";
 
 
 
-function Work() {
+function WorkPage() {
   return (
     <Container fluid className="about-section">
       
@@ -48,4 +48,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default WorkPage;
