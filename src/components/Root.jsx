@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import StarterPage from "./components/StarterPage/StarterPage";
+import StarterPage from "../src/components/StarterPage/LandingPage";
 import reportWebVitals from "./reportWebVitals";
 
 const Root = () => {
@@ -11,7 +11,7 @@ const Root = () => {
   return (
     <React.StrictMode>
       {started ? (
-        <App />
+        <App onBack={() => setStarted(false)} />
       ) : (
         <StarterPage onStart={() => setStarted(true)} />
       )}
@@ -20,4 +20,5 @@ const Root = () => {
 };
 
 ReactDOM.render(<Root />, document.getElementById("root"));
+
 reportWebVitals();

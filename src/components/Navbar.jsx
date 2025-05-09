@@ -46,7 +46,7 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            {["/", "/about", "/project", "/resume", "/contact"].map((path, index) => (
+            {["/", "/work", "/pricing", "/careers", "/contact"].map((path, index) => (
               <Nav.Item key={index}>
                 <Nav.Link 
                   as={Link} 

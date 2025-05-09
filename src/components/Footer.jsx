@@ -5,21 +5,39 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
+  const location = useLocation();
+
+  const links = [
+    { path: "/", label: "Home" },
+    { path: "/work", label: "Work" },
+    { path: "/pricing", label: "Pricing" },
+    { path: "/careers", label: "Careers" },
+    { path: "/contact", label: "Contact" },
+  ];
+
   return (
     <Container fluid className="footer">
       <Row className="justify-content-between">
-        <Col md="4" className="footer">
-          <h3>Designed and Developed by Salma Alnazer</h3>
+        <Col md="4" className="footer-nav d-flex justify-content-start align-items-center">
+          {links.map(({ path, label }) => (
+            <Link
+              key={path}
+              to={path}
+              className={`footer-link ${location.pathname === path ? "active" : ""}`}
+            >
+              {label}
+            </Link>
+          ))}
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/AlnazerSalma"
-                style={{ color: "white",fontSize:"22px" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -28,8 +46,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/salma-alnazer/"
-                style={{ color: "white" ,fontSize:"22px"}}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -38,8 +55,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/salma_alnazer/"
-                style={{ color: "white" ,fontSize:"22px"}}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
